@@ -1,15 +1,14 @@
 package easyTasks;
 
-import easyTasks.BuyAndSellStockSolution;
 import org.junit.jupiter.api.Test;
 
 import java.util.Random;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class BuyAndSellStockSolutionTest {
-    public BuyAndSellStockSolution solution = new BuyAndSellStockSolution();
 
+    public BuyAndSellStockSolution solution = new BuyAndSellStockSolution();
     @Test
     void maxProfit() {
         int[] prices = new int[]{7,1,5,3,6,4};

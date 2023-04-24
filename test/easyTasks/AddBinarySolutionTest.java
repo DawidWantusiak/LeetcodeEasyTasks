@@ -1,6 +1,5 @@
 package easyTasks;
 
-import easyTasks.AddBinarySolution;
 import org.junit.jupiter.api.Test;
 
 class AddBinarySolutionTest {

@@ -1,3 +1,6 @@
+package easyTasks;
+
+import easyTasks.SingleNumberSolution;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

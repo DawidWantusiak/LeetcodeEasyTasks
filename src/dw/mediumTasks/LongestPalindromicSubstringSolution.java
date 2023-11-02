@@ -15,7 +15,7 @@ Constraints:
 s consist of only digits and English letters.
 */
 
-package mediumTasks;
+package dw.mediumTasks;
 
 public class LongestPalindromicSubstringSolution {
 

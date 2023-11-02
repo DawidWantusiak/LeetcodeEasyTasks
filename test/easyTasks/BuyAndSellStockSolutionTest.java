@@ -1,5 +1,6 @@
 package easyTasks;
 
+import dw.easyTasks.BuyAndSellStockSolution;
 import org.junit.jupiter.api.Test;
 
 import java.util.Random;

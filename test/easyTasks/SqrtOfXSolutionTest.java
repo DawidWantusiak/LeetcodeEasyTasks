@@ -1,5 +1,6 @@
 package easyTasks;
 
+import dw.easyTasks.SqrtOfXSolution;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;

@@ -32,17 +32,18 @@ Constraints:
 The given dates are guaranteed to be valid, so no error handling is necessary.*/
 public class ReformatDate {
     public String reformatDate(String date) {
-        final String[] inputParts = date.split(" ");
-
+        final String[] dateParts = date.split(" ");
         final String[] months = {"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"};
+
         final Map<String, Byte> monthDict = new HashMap<>();
         for (byte i = 0; i < months.length; i++) {
             monthDict.put(months[i], (byte) (i + 1));
         }
-        final byte month = monthDict.get(inputParts[1]);
-        final byte day = Byte.parseByte(inputParts[0].replaceAll("\\D", ""));
 
-        return "%s-%02d-%02d".formatted(inputParts[2], month, day);
+        final byte month = monthDict.get(dateParts[1]);
+        final byte day = Byte.parseByte(dateParts[0].replaceAll("\\D", ""));
+
+        return "%s-%02d-%02d".formatted(dateParts[2], month, day);
     }
 }
 
